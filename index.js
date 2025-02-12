@@ -10,7 +10,8 @@ const dotenv = require ("dotenv")
 dotenv.config()
 const appRouter = require("./src/app")
 
-app.use("/api/cinemas", appRouter)
+app.use("/api", appRouter)
+
 
 
 const port = process.env.PORT
