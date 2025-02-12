@@ -1,7 +1,7 @@
 const mongoose = require ("mongoose")
 
 const orphanageSchema = mongoose.Schema({
-    orphanage: {
+    orphanageName: {
         type: String,
         require: true
     },
